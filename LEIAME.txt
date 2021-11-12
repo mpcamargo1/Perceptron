@@ -1,0 +1,49 @@
+Linhas
+ (Largura de Tabulação - 4)
+ Compilador
+  gcc arquivo.c -o arquivosaida -lm
+ Altere os valores das contantes no arquivo .c para diferentes conjuntos de dataset, não se esquecendo de alterar, também, as variáveis de localização dos EXPs (datasets)
+ datasets
+ Ex: L_LINES 	105
+ 	 V_LINES	30
+ 	 T_LINES	15
+ 	 
+ 	 Onde X é o número do EXP ------------------> (EXP é a redução da palavra experimento)
+ 	 L_LOCATION		"EXPX/learning_2.h"
+	 V_LOCATION		"EXPX/validation_2.h"
+	 T_LOCATION		"EXPX/test_2.h"
+ 
+		EXP1	(Dataset Padrão -- Mesma organização que o disponivel pelo site)
+			p_1.c
+				L_LINES 		105
+				V_LINES		 	30	
+				T_LINES			15			
+	
+			p_2.c
+				L_LINES			123	
+				V_LINES 		34
+				T_LINES			21
+
+		EXP2	(Dataset 2 -- Linhas foram embaralhadas randomicamente pelo site -- random.org)
+			p_1.c
+				L_LINES 		105
+				V_LINES			30
+				T_LINES			15
+			p_2.c
+				L_LINES 		124
+				V_LINES			35
+				T_LINES			19
+			
+		EXP3	(Dataset 3 -- Linhas foram embaralhadas randomicamente pelo site -- random.org)
+			p_1.c
+				L_LINES 		105
+				V_LINES		 	30	
+				T_LINES			15
+
+			p_2.c			
+				L_LINES 		125
+				V_LINES			36
+				T_LINES			17			
+
+
+

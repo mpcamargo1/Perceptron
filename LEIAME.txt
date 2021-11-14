@@ -3,7 +3,7 @@ Observações
  Compilador
   gcc arquivo.c -o arquivosaida -lm
   DATASET utilizado: Wine (https://archive.ics.uci.edu/ml/datasets/wine) -- Obs: Obrigatório todos os atributos serem do tipo NÚMERICO
- ALTERE os valores das CONSTANTES no arquivo .c para diferentes conjuntos de dataset, não se esquecendo, também, de alterar as variáveis de localização dos EXPs (datasets) e a constante NEURON (O seu valor representa a quantidade de classes a serem identificadas -- No caso do WINE, há três tiops de vinhos)
+ ALTERE os valores das CONSTANTES no arquivo .c para diferentes conjuntos de dataset, não se esquecendo, também, de alterar as variáveis de localização dos EXPs (datasets), a constante NEURON (seu valor representa a quantidade de classes a serem identificadas -- No caso do WINE, há três tiops de vinhos) e, por fim, a constante INPUT ( seu valor representa a quantidade de atributos já incluso o atributo da classe identificadora).
  Para facilitar o desenvolvimento da função de leitura dos dados, os atributos do arquivo .h (DATASET) não são separados por vírgula, mas sim por NEW_LINE (\n). Para utilizar outros datasets sem reescrever a função de leitura dos arquivos, abre o dataset escolhido em qualquer ferramenta de texto e utiliza a ferramenta de localização e substituição (Localizar as VÍRGULAS e substitua-a por ESPAÇOS). Em seguida, altera os valores da CONSTANTES do arquivo perceptron.c (conforme abaixo)
 
  Ex:     L_LINES 	105

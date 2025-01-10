@@ -5,7 +5,6 @@ Este repositório contém uma implementação de um **Perceptron**, um dos algor
 ## Principais Funcionalidades
 - **Treinamento Supervisionado**: O algoritmo ajusta seus pesos com base no erro cometido durante o treinamento.
 - **Customização de Hiperparâmetros**: Possibilidade de ajustar a taxa de aprendizado (learning rate) e o número de iterações para melhor desempenho.
-- **Visualização do Processo de Aprendizado**: Gráficos que mostram a evolução do hiperplano de separação (opcional, caso implementado).
 
 ## O que é o Perceptron?
 O Perceptron é um modelo simples de rede neural criado por **Frank Rosenblatt** em 1958. Ele utiliza uma combinação linear dos pesos e entradas para realizar previsões binárias. A cada erro cometido, os pesos são atualizados usando a regra de aprendizado do Perceptron:

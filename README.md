@@ -11,14 +11,16 @@ Este repositório contém uma implementação de um **Perceptron**, um dos algor
 O Perceptron é um modelo simples de rede neural criado por **Frank Rosenblatt** em 1958. Ele utiliza uma combinação linear dos pesos e entradas para realizar previsões binárias. A cada erro cometido, os pesos são atualizados usando a regra de aprendizado do Perceptron:
 
 **Regra de Atualização:**
-\[ w_{t+1} = w_t + \eta (y - \hat{y}) x \]
+```
+    w_{t+1} = w_t + η (y - ŷ) x
+```
 
 Onde:
-- \( w_t \): pesos atuais
-- \( \eta \): taxa de aprendizado
-- \( y \): rótulo verdadeiro
-- \( \hat{y} \): previsão do modelo
-- \( x \): entrada correspondente
+- `w_t`: pesos atuais
+- `η`: taxa de aprendizado
+- `y`: rótulo verdadeiro
+- `ŷ`: previsão do modelo
+- `x`: entrada correspondente
 
 ## Aplicações
 Embora simples, o Perceptron é útil para:
